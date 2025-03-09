@@ -1,0 +1,65 @@
+/* Background & Global Styling */
+.solutions-section {
+    background: linear-gradient(180deg, #02152e, #053fa3);
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 3px;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #f9a826;
+  }
+  
+  /* Tagline */
+  .tagline {
+    font-size: 20px;
+    font-style: italic;
+    color: #ddd;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid Layout */
+  .grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Service Cards */
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f9a826;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #ddd;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(23, 1, 1, 0.993);
+  }
+  

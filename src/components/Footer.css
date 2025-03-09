@@ -1,0 +1,148 @@
+/* Footer Background & Global Styling */
+.footer {
+    background: linear-gradient(180deg, #010a1b, #05366e);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Footer Sections */
+.footer-section h5 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f9a826;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+    color: #f9a826;
+}
+
+/* Branding & CTA */
+.brand-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.brand-container h2 {
+    color: #f9a826;
+    font-size: 28px;
+}
+
+.brand-container p {
+    color: #ddd;
+    font-size: 16px;
+}
+
+.btn-consultation {
+    background-color: #f9a826;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #141e30;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-consultation:hover {
+    background-color: #ffbb44;
+}
+
+/* Subscription Input */
+.subscription-container {
+    margin-top: 30px;
+}
+
+.subscription-input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.subscription-input:focus {
+    outline: 2px solid #f9a826;
+}
+
+/* Contact & Reviews */
+.contact-section {
+    margin-top: 20px;
+}
+
+.contact-section p {
+    color: #ddd;
+    margin: 5px 0;
+}
+
+.contact-section a {
+    color: #f9a826;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.footer-bottom nav a {
+    color: #ddd;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-bottom nav a:hover {
+    color: #f9a826;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #f9a826;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .subscription-input {
+        width: 80%;
+    }
+}

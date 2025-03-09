@@ -1,0 +1,101 @@
+/* Background & Global Styling */
+.contact-section {
+    background: linear-gradient(180deg, #000817, #023b7d);
+    color: #fff;
+    padding: 80px 20px;
+
+  }
+  
+  /* Left Section */
+  .left-section {
+    padding: 50px;
+  }
+  
+  .left-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f9a826;
+  }
+  
+  .left-section p {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .call-us {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9a826;
+  }
+  
+  .benefits-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits-list li {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 5px;
+  }
+  
+  /* Steps */
+  .steps p {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 5px;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9a826;
+    margin-bottom: 20px;
+  }
+  
+  .form-control,
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .form-control::placeholder,
+  .form-select {
+    color: #ddd;
+  }
+  
+  /* Submit Button */
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9a826;
+    color: #141e30;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #ffbd59;
+  }
+  
