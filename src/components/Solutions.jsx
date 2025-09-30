@@ -9,18 +9,18 @@ const Solutions = () => {
   }, []);
 
   const services = [
-    { name: "🚀 SaaS Solutions", desc: "Custom-built SaaS applications to streamline business operations." },
-    { name: "📊 Data Analytics", desc: "Transform raw data into actionable insights using AI & ML." },
-    { name: "🔒 Enterprise Security", desc: "Comprehensive cybersecurity to safeguard digital assets." },
-    { name: "☁️ Cloud Computing", desc: "Seamless cloud solutions for scalability and efficiency." },
-    { name: "🛠 IT Consulting", desc: "Strategic IT solutions to enhance business productivity." }
+    { name: "🗣️ Speaking Practice", desc: "Interactive speaking sessions with instant feedback to improve fluency." },
+    { name: "📝 Mock Tests", desc: "Simulate real IELTS exams to track your progress and timing." },
+    { name: "🤖 AI Band Score", desc: "Get accurate predicted band scores using AI-powered assessments." },
+    { name: "📚 Personalized Study Plans", desc: "Tailored study plans to focus on your weak areas and improve overall score." },
+    { name: "🎧 Listening & Reading Exercises", desc: "Practice exercises designed to enhance comprehension and accuracy." }
   ];
 
   return (
-    <div className="solutions-section">
-      <h1 className="section-title" data-aos="fade-down">Our Solutions</h1>
+    <div className="solutions-section" id="features">
+      <h1 className="section-title" data-aos="fade-down">Our Features</h1>
       <p className="tagline" data-aos="fade-up">
-        "Empowering businesses with cutting-edge SaaS & IT solutions."
+        "Comprehensive IELTS preparation with expert guidance and innovative tools."
       </p>
 
       <div className="grid">

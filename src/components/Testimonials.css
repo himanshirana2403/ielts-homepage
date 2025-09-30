@@ -1,0 +1,97 @@
+/* Testimonials Section */
+.testimonials-section {
+    background: linear-gradient(175deg, #00040a, #054b9c);
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #f9a826;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 20px;
+    font-style: italic;
+    color: #ddd;
+    margin-bottom: 40px;
+}
+
+/* Reviews Grid */
+.reviews-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Review Card */
+.review-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.15);
+}
+.review-card {
+    background: rgba(0,0,0,0.7) !important;
+    color: #fff !important;
+    border-radius: 15px !important;
+}
+
+
+/* Student Name */
+.student-name {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #f9a826;
+}
+
+/* Review Text */
+.review-text {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+/* Avatar Styling */
+.MuiAvatar-root {
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 28px;
+    }
+    .tagline {
+        font-size: 18px;
+    }
+    .review-card {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 24px;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+}

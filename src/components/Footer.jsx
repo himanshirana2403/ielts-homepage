@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Footer.css";
-import { FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaBehance } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -10,36 +10,31 @@ const Footer = () => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  const solutions = [
-    "Cloud & DevOps Solutions",
-    "Enterprise SaaS Development",
-    "Custom Software Engineering",
-    "Cybersecurity & Compliance",
-    "AI & Data Analytics",
-    "Managed IT Services",
-    "Digital Transformation",
-    "E-commerce Solutions",
+  const courses = [
+    "Speaking Practice",
+    "Writing Skills",
+    "Reading Techniques",
+    "Listening Exercises",
+    "Mock Tests",
+    "AI Band Score Feedback",
+    "Personalized Study Plans",
   ];
 
-  const companyLinks = [
+  const instituteLinks = [
     "About Us",
-    "Our Expertise",
-    "Team & Culture",
-    "Careers",
-    "Client Testimonials",
-    "Awards & Recognition",
+    "Our Trainers",
+    "Success Stories",
+    "Courses",
+    "FAQs",
     "Blog",
-    "Case Studies",
-    "Support",
+    "Contact",
   ];
 
   const footerLinks = [
     "Terms of Service",
     "Privacy Policy",
-    "Refund & Cancellation",
-    "Security Policy",
-    "Blog",
-    "Case Studies",
+    "Refund Policy",
+    "Disclaimer",
     "Contact Us",
   ];
 
@@ -48,18 +43,18 @@ const Footer = () => {
     { icon: <FaGithub />, link: "#" },
     { icon: <FaTwitter />, link: "#" },
     { icon: <FaFacebook />, link: "#" },
-    { icon: <FaBehance />, link: "#" },
+    { icon: <FaInstagram />, link: "#" },
   ];
 
   return (
     <footer className="footer">
       <div className="container">
         <div className="row">
-          {/* Solutions Section */}
+          {/* Courses Section */}
           <div className="col-md-4 footer-section">
-            <h5>Our Solutions</h5>
+            <h5>Our Courses</h5>
             <ul>
-              {solutions.map((item, index) => (
+              {courses.map((item, index) => (
                 <li key={index}>
                   <a href="#">{item}</a>
                 </li>
@@ -67,11 +62,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company Section */}
+          {/* Institute Section */}
           <div data-aos="fade-left" className="col-md-4 footer-section">
-            <h5>Company</h5>
+            <h5>Institute</h5>
             <ul>
-              {companyLinks.map((item, index) => (
+              {instituteLinks.map((item, index) => (
                 <li key={index}>
                   <a href="#">{item}</a>
                 </li>
@@ -82,37 +77,37 @@ const Footer = () => {
           {/* Branding & CTA */}
           <div className="col-md-4 text-center">
             <div className="brand-container">
-              <h2>Intelion</h2>
-              <p>Your Trusted SaaS & IT Partner</p>
+              <h2>IELTS Pro</h2>
+              <p>Your Pathway to IELTS Success</p>
             </div>
-            <button className="btn-consultation">Request a Free Consultation</button>
+            <button className="btn-consultation">Book a Free Consultation</button>
           </div>
         </div>
 
         {/* Subscription Input */}
         <div className="subscription-container">
-          <input type="text" placeholder="Stay updated with the latest trends" className="subscription-input" />
+          <input type="text" placeholder="Stay updated with IELTS tips & news" className="subscription-input" />
         </div>
 
         {/* Contact & Review Section */}
         <div data-aos="fade-right" className="row contact-section">
           <div className="col-md-6 text-center text-md-start">
-            <h6>Rated 5.0/5 by Industry Experts</h6>
+            <h6>Rated 5.0/5 by Students</h6>
             <p className="rating">⭐⭐⭐⭐⭐</p>
-            <p>Gartner | Clutch | 500+ Clients</p>
+            <p>500+ Successful Students</p>
           </div>
           <div className="col-md-6 text-center text-md-end">
-            <p>HQ: 7th Avenue, Tech Park, Bengaluru, India</p>
+            <p>Address: 123 Learning Street, Delhi, India</p>
             <p>Phone: +91 98765 43210</p>
             <p>
-              Email: <a href="mailto:contact@intelion.com">contact@intelion.com</a>
+              Email: <a href="mailto:info@ieltspro.com">info@ieltspro.com</a>
             </p>
           </div>
         </div>
 
         {/* Footer Bottom */}
         <div data-aos="fade-up" className="footer-bottom">
-          <p>© 2025 Intelion | All Rights Reserved</p>
+          <p>© 2025 IELTS Pro | All Rights Reserved</p>
           <nav>
             {footerLinks.map((item, index) => (
               <a key={index} href="#">
