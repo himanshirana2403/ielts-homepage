@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6 text-center text-md-end">
             <p>Address: 123 Learning Street, Delhi, India</p>
-            <p>Phone: +91 98765 43210</p>
+            <p>Phone: +91 9XXXXXXXXX</p>
             <p>
               Email: <a href="mailto:info@ieltspro.com">info@ieltspro.com</a>
             </p>
