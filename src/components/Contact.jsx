@@ -18,7 +18,7 @@ const ContactUs = () => {
             <p>
               Join IELTS Pro today and get expert guidance, personalized learning plans, mock tests, and AI-assisted band scoring to excel in IELTS.
             </p>
-            <p className="call-us"><strong>📞 Contact us at:</strong> +91 98765 43210</p>
+            <p className="call-us"><strong>📞 Contact us at:</strong> +91 9XXXXXXXXX</p>
 
             <h4>Why Choose IELTS Pro?</h4>
             <ul className="benefits-list">
