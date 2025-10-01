@@ -6,7 +6,7 @@ This project is part of an internship assignment focused on **UI/UX design, resp
 ---
 
 ## 🌐 Live Demo
-👉 [Click here to view the live site](https://himanshirana2403.github.io/ielts-homepage/)
+👉 [Click here to view the live site](https://ielts-homepage-zeta.vercel.app/)
 
 ---
 

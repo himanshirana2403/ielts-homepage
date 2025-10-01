@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FaCloud, FaShieldAlt, FaSyncAlt, FaHeadset } from "react-icons/fa";
+import { FaBookOpen, FaChalkboardTeacher, FaLaptopCode, FaHeadset } from "react-icons/fa";
 import "./WhyChooseUs.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,10 +12,10 @@ const WhyChooseUs = () => {
   }, []);
 
   const features = [
-    { icon: <FaCloud />, title: "Cloud Solutions", text: "Seamless, scalable, and secure cloud services tailored to your needs." },
-    { icon: <FaShieldAlt />, title: "Enterprise Security", text: "Advanced cybersecurity solutions to safeguard your business operations." },
-    { icon: <FaSyncAlt />, title: "AI & Automation", text: "Optimize workflows with AI-powered automation and smart analytics." },
-    { icon: <FaHeadset />, title: "Dedicated Support", text: "24/7 expert assistance to ensure seamless IT management." },
+    { icon: <FaChalkboardTeacher />, title: "Expert Trainers", text: "Learn from certified IELTS trainers with years of experience." },
+    { icon: <FaBookOpen />, title: "Comprehensive Curriculum", text: "Structured lessons covering Speaking, Writing, Reading, and Listening." },
+    { icon: <FaLaptopCode />, title: "Mock Tests & AI Scoring", text: "Practice real exam scenarios and get AI-assisted band score feedback." },
+    { icon: <FaHeadset />, title: "Personalized Support", text: "One-on-one guidance to focus on your weak areas and improve scores." },
   ];
 
   return (
@@ -23,19 +23,19 @@ const WhyChooseUs = () => {
       {/* Ratings & Reviews */}
       <Row data-aos="fade-right" className="mb-5">
         <Col>
-          <h2 className="section-title">Trusted by Businesses Worldwide</h2>
+          <h2 className="section-title">Trusted by Students Worldwide</h2>
           <div className="rating">⭐⭐⭐⭐⭐</div>
-          <p className="review-count">5K+ Satisfied Clients</p>
+          <p className="review-count">500+ Successful Students</p>
         </Col>
       </Row>
 
-      {/* Company Stats */}
+      {/* Institute Stats */}
       <Row data-aos="fade-left" className="key-metrics mb-5">
         {[
-          { title: "10+", text: "Years of Innovation" },
-          { title: "99%", text: "Uptime & Reliability" },
-          { title: "600+", text: "Projects Successfully Delivered" },
-          { title: "24/7", text: "Customer Support" },
+          { title: "10+", text: "Years of Experience" },
+          { title: "95%", text: "Students Achieving Target Band" },
+          { title: "500+", text: "Students Trained" },
+          { title: "24/7", text: "Guidance & Support" },
         ].map((metric, index) => (
           <Col key={index} md={3} className="metric-box">
             <h3>{metric.title}</h3>
@@ -44,11 +44,11 @@ const WhyChooseUs = () => {
         ))}
       </Row>
 
-      {/* What We Do */}
+      {/* What We Offer */}
       <Row data-aos="fade-up" className="mb-5">
         <Col>
-          <h2 className="section-title">What We Offer</h2>
-          <h3 className="tagline">Empowering Businesses with Cutting-Edge SaaS & IT Solutions</h3>
+          <h2 className="section-title">Our Features</h2>
+          <h3 className="tagline">Comprehensive IELTS Training to Boost Your Band Score</h3>
         </Col>
       </Row>
 
@@ -60,7 +60,7 @@ const WhyChooseUs = () => {
               <Card.Body>
                 <div className="icon-container">{feature.icon}</div>
                 <Card.Title>{feature.title}</Card.Title>
-                <Card.Text>{feature.text}</Card.Text>
+                <Card.Text className="pp">{feature.text}</Card.Text>
               </Card.Body>
             </Card>
           </Col>
